@@ -4,7 +4,7 @@ const schedule = require('node-schedule');
 // Вкажіть свій токен
 const token = `${process.env.TELEGRAM_TOKEN}`;
 // Вкажіть ID каналу
-const channelId = '@your_channel_id';
+const channelId = '@kun_bio';
 
 const bot = new TelegramBot(token, { polling: true });
 
